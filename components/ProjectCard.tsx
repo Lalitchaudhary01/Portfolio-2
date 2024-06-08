@@ -1,18 +1,19 @@
-import uniqid from 'uniqid'
-import GitHubIcon from '@mui/icons-material/GitHub'
-import LaunchIcon from '@mui/icons-material/Launch'
-import MediaIcon from '@mui/icons-material/YouTube'
-// import MediaIcon from '@mui/icons-material/VideoLibraryOutlined'
-
+import Image from 'next/image';
+import uniqid from 'uniqid';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LaunchIcon from '@mui/icons-material/Launch';
+import MediaIcon from '@mui/icons-material/YouTube';
 
 const ProjectCard = ({ project }: any) => (
   <div className='project'>
     <div>
       {project.thumbnail && (
-        <img
+        <Image
           className='project__thumbnail'
           src={project.thumbnail}
           alt='thumbnail'
+          width={300}
+          height={200}
         />
       )}
 
@@ -96,6 +97,6 @@ const ProjectCard = ({ project }: any) => (
       )}
     </div>
   </div>
-)
+);
 
-export default ProjectCard
+export default ProjectCard;
