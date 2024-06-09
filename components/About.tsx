@@ -5,7 +5,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import { about } from '../data/portfolio'
 
 const About = () => {
-  const { name, description, resume, social, greetingEmoji } = about
+  const { name, description, role, resume, social, greetingEmoji } = about
   const firstName = name ? name.split(' ')[0] : null
 
   return (
@@ -19,18 +19,13 @@ const About = () => {
         </h1>
       )}
 
-      {/* {role && (
+      {role && (
         <h1 className='about__role animate__animated animate__fadeInUp animate__delay-3s'>
           I&apos;m a {role}
-          {company && (
-            <span>
-              {' '}
-              at <span className='text--strong'>{company}</span>
-            </span>
-          )}
+          
           .
         </h1>
-      )} */}
+      )}
 
       <div className='animate__animated animate__fadeIn animate__delay-5s'>
         {description && (

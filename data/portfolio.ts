@@ -49,6 +49,7 @@ const projects = [
       'Developed a YouTube clone incorporating live chat and comment features. The application is built using React for the frontend, Redux for state management, and APIs for data retrieval and manipulation. The live chat feature allows users to interact in real-time, while the comments section enables user engagement and feedback on videos.',
     ],
     stack: ['BootStrap', 'Tailwind CSS',  'React', 'Redux', 'RestAPI', 'JavaScript', 'HTML/CSS',],
+    livePreview: 'https://youtube-clone-p8se.vercel.app/',
     sourceCode: 'https://github.com/Lalitchaudhary01/youtube-clone'
   },
   
