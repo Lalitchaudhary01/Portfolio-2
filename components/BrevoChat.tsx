@@ -3,9 +3,11 @@ import React, { useEffect } from 'react';
 const BrevoChat: React.FC = () => {
   useEffect(() => {
     (function (d, w, c) {
-      // Set the Brevo Conversations Widget ID
+      // @ts-ignore
       w.BrevoConversationsID = '66651d3d787d350eb0447e09';
+      // @ts-ignore
       w[c] = w[c] || function () {
+        // @ts-ignore
         (w[c].q = w[c].q || []).push(arguments);
       };
       var s = d.createElement('script');
