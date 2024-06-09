@@ -5,7 +5,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import { about } from '../data/portfolio'
 
 const About = () => {
-  const { name, role, company, description, resume, social, greetingEmoji } = about
+  const { name, role, description, resume, social, greetingEmoji } = about
   const firstName = name ? name.split(' ')[0] : null
 
   return (
