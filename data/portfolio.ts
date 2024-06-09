@@ -7,7 +7,7 @@ const about = {
     `Front-end developer for nearly ${new Date().getFullYear() - 2022
     } years, I’am a stickler for API security, a lover of clean code and remain passionate about my job and new technologies in general. Always on a quest for learning and continuous self-training, I’am particularly interested in the new opportunities and technological prowess that the development of 5G may enable on the ground, in line with the explosion of AI technologies.`,
   ],
-  resume: '/documents/Lalit_Chaudhary_Resume.pdf',
+  resume: '/documents/Lalit-Front-End Developer.pdf',
   social: {
     linkedin: 'https://www.linkedin.com/in/lalit-chaudhary-1a816a21b/',
     github: 'https://github.com/Lalitchaudhary01',
