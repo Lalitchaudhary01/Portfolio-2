@@ -78,6 +78,7 @@ const skills = [
   'Git',
   'UI/UX',
   'MongoDB',
+  'Firebase',
   'Material UI',
   'Java',
   'C-programming',
