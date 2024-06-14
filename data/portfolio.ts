@@ -52,6 +52,16 @@ const projects = [
     livePreview: 'https://youtube-clone-p8se.vercel.app/',
     sourceCode: 'https://github.com/Lalitchaudhary01/youtube-clone'
   },
+  {
+    thumbnail: '/images/code.png',
+    name: 'COde-Editor',
+    description: [
+      'Lalit is developing a real-time code collaboration platform using React.js, Codemirror, Socket.io, and Node.js, aimed at enhancing developer collaboration and productivity',
+    ],
+    stack: ['React.js', 'Codemirror', 'Socket.io', 'Node.js', 'Express.js', 'Tailwind CSS', 'Figma', 'Git', 'npm/yarn'],
+    livePreview: 'https://lalit-code-editor.vercel.app/',
+    sourceCode: 'https://github.com/Lalitchaudhary01/Code-editor'
+  },
   
   
   
