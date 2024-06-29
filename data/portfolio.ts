@@ -2,9 +2,9 @@ const about = {
   // all the properties are optional - can be left empty or deleted
   // each element in the description array is a paragraph
   name: 'Lalit Chaudhary',
-  role: 'Front-end Developer',
+  role: 'Full Stack Developer',
   description: [
-    `Front-end developer for nearly ${new Date().getFullYear() - 2022
+    `Full Stack developer for nearly ${new Date().getFullYear() - 2022
     } years, I’am a stickler for API security, a lover of clean code and remain passionate about my job and new technologies in general. Always on a quest for learning and continuous self-training, I’am particularly interested in the new opportunities and technological prowess that the development of 5G may enable on the ground, in line with the explosion of AI technologies.`,
   ],
   resume: '/documents/Lalit-Front-End Developer.pdf',
@@ -62,6 +62,16 @@ const projects = [
     livePreview: 'https://lalit-code-editor.vercel.app/',
     sourceCode: 'https://github.com/Lalitchaudhary01/Code-editor'
   },
+  {
+    thumbnail: '/images/image.png',
+    name: 'Music-ed-tech',
+    description: [
+      'I am excited to share my latest project - a Music EdTech website built using Next.js and the UI.Aeternity CSS library. This platform is designed to offer a modern, engaging, and interactive experience for users interested in music education.',
+    ],
+    stack: ['Next.js', 'TypeScript', 'UI.Aeternity CSS Library', 'Tailwind CSS', 'Figma', 'Git', 'npm/yarn'],
+    livePreview: 'https://music-ed-tech-beryl.vercel.app/',
+    sourceCode: 'https://github.com/Lalitchaudhary01/music-ed-tech'
+  },
   
   
   
@@ -71,6 +81,7 @@ const skills = [
   // skills can be added or removed
   // if there are no skills, Skills section won't show up
   'JavaScript',
+  'TypeScript',
   'Express JS',
   'Node JS',
   'HTML/CSS/JS',
@@ -84,6 +95,7 @@ const skills = [
   'C-programming',
   'Tailwind',
   'BootStrap',
+  'UI.Aeternity CSS Library',
   'Postman',
   'Linux',
   'Marlin Firmware',
