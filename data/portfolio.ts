@@ -82,6 +82,9 @@ const skills = [
   // if there are no skills, Skills section won't show up
   'JavaScript',
   'TypeScript',
+  'React',
+  'Redux',
+  'NextJS',
   'Express JS',
   'Node JS',
   'HTML/CSS/JS',
