@@ -7,7 +7,7 @@ const about = {
     `Full Stack developer for nearly ${new Date().getFullYear() - 2022
     } years, I’am a stickler for API security, a lover of clean code and remain passionate about my job and new technologies in general. Always on a quest for learning and continuous self-training, I’am particularly interested in the new opportunities and technological prowess that the development of 5G may enable on the ground, in line with the explosion of AI technologies.`,
   ],
-  resume: '/documents/Lalit-Front-End Developer.pdf',
+  resume: '/documents/Lalit-full-stack.pdf',
   social: {
     linkedin: 'https://www.linkedin.com/in/lalit-chaudhary-1a816a21b/',
     github: 'https://github.com/Lalitchaudhary01',
@@ -71,6 +71,16 @@ const projects = [
     stack: ['Next.js', 'TypeScript', 'UI.Aeternity CSS Library', 'Tailwind CSS', 'Figma', 'Git', 'npm/yarn'],
     livePreview: 'https://music-ed-tech-beryl.vercel.app/',
     sourceCode: 'https://github.com/Lalitchaudhary01/music-ed-tech'
+  },
+  {
+    thumbnail: '/images/video.png',
+    name: 'Video-call-App',
+    description: [
+      'VideoVichar is a real-time video calling application designed to provide seamless and high-quality video communication. It is perfect for personal and professional use, offering a user-friendly interface and robust features to ensure a smooth video calling experience.',
+    ],
+    stack: ['React', 'Tailwind', 'Redux' ],
+    livePreview: 'https://videovichar.vercel.app/',
+    sourceCode: 'https://github.com/Lalitchaudhary01/lalit-videoCallApp'
   },
   
   
