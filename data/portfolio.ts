@@ -20,6 +20,16 @@ const projects = [
   // if there are no projects, Projects section won't show up
   // each element in the description array is a paragraph
   {
+    thumbnail: '/images/chat-app.png',
+    name: 'Chat-App',
+    description: [
+      'I have built a chat application using the MERN stack and Socket.io for real-time communication.',
+    ],
+    stack: ['React',  'Redux', 'ExpressJs','MongoDB','Socket.Io'],
+    sourceCode:'https://github.com/Lalitchaudhary01/Mern-chat-app',
+  
+},
+  {
     thumbnail: '/images/food-delivery.png',
     name: 'Food-Delivery-App',
     description: [
