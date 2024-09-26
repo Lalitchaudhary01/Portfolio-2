@@ -29,6 +29,17 @@ const projects = [
     sourceCode:'https://github.com/Lalitchaudhary01/Mern-chat-app',
   
 },
+{
+  thumbnail: '/images/netflix.png',
+    name: 'NetflixGPT',
+    description: [
+      'Netflix GPT is a web app that lets users browse movies and receive AI-powered personalized recommendations by integrating with movie databases. Built with React and Tailwind CSS, it provides a seamless, responsive user experience',
+    ],
+    stack: ['React',  'Redux', 'Firebase','OpenAI-API','MoviewDB-API'],
+    livePreview: 'https://netflix-gpt-self-beta.vercel.app/browse',
+    sourceCode:'https://github.com/Lalitchaudhary01/NetflixGPT?tab=readme-ov-file#description',
+
+},
   {
     thumbnail: '/images/food-delivery.png',
     name: 'Food-Delivery-App',
@@ -47,7 +58,7 @@ const projects = [
       " Developed a shoe buying application using React, providing users with a seamless shopping experience for footwear products.",
     ],
     stack: ['BootStrap', 'Tailwind CSS',  'React', 'Redux', 'JavaScript', 'HTML/CSS' ],
-    livePreview: 'https://shoes-website-beryl.vercel.app/',
+    livePreview: 'https://shoes-websappite-beryl.vercel.app/',
     sourceCode:
       'https://github.com/Lalitchaudhary01/shoes-website',
     
